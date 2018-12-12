@@ -1,10 +1,6 @@
 ngx_module_type=STREAM
-ngx_module_name=ngx_stream_nginmesh_dest_module
-ngx_module_srcs="$ngx_addon_dir/ngx_stream_nginmesh_dest_module.c"
+ngx_module_name=ngx_stream_orig_dst_module
+ngx_addon_name=$ngx_module_name
+ngx_module_srcs="$ngx_addon_dir/ngx_stream_orig_dst_module.c"
 
 . auto/module
-ngx_addon_name=$ngx_module_name
-
-
-
-
