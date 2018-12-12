@@ -90,6 +90,7 @@ static ngx_stream_variable_t  ngx_stream_orig_dst_vars[] = {
       ngx_stream_null_variable
 };
 
+
 static ngx_int_t
 ngx_stream_orig_dst_save_ctx(struct sockaddr *addr_in, socklen_t len, ngx_stream_orig_dst_ctx_t *ctx)
 {
